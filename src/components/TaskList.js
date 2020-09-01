@@ -8,7 +8,6 @@ export default function TaskList() {
 
   function handleAddProject() {
         setTasks([...tasks, task]);
-        console.log();
         setTask("");
     }
 
@@ -30,11 +29,3 @@ export default function TaskList() {
     </>
   );
 }
-
-
-
-// const taskList = task.map((task) =>
-//   <li key={task.id}>
-//     {task.text}
-//   </li>
-// );
